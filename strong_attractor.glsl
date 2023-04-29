@@ -3,6 +3,8 @@
 // Another is orbiting the origin with a radius of 3.
 // When close to the larger attention vector the smaller vectors field is eclipsed,
 // and it no longer forms it's own attractor.
+// The particle colour depends on the direction of its velocity,
+// so an attrator (i.e. a point where particles converge) is easily identifiable because all colours meet there.
 // Play with the parameters and see what happens!
 // Check out more visualisations at github.com/matthiasdellago/visualising-attention
 
