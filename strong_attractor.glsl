@@ -1,7 +1,7 @@
-// Domonstration a strong attractor.
-// One attention vector  is stationay at (6,0).
+// Example a strong attractor.
+// One attention vector  is stationary at (6,0).
 // Another is orbiting the origin with a radius of 3.
-// When close to the larger attention vector the smaller vectors field is eclipsed,
+// When close to the larger attention vector the smaller vectors attractive field is eclipsed,
 // and it no longer forms it's own attractor.
 // The particle colour depends on the direction of its velocity,
 // so an attrator (i.e. a point where particles converge) is easily identifiable because all colours meet there.
