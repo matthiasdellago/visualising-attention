@@ -1,4 +1,4 @@
-// Example a strong attractor.
+// Example of a strong attractor.
 // One attention vector  is stationary at (6,0).
 // Another is orbiting the origin with a radius of 3.
 // When close to the larger attention vector the smaller vectors attractive field is eclipsed,
