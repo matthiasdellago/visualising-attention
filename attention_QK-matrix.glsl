@@ -1,6 +1,6 @@
 // Visualising the field that 3 attention vectors create in 2d
 // Play with the parameters and see what happens!
-// Now with built in quasi-kernel and your very own B-matrix!
+// Now with built in quasi-kernel and your very own QK-matrix!
 // Check out more visualisations at github.com/matthiasdellago/visualising-attention
 
 vec2 attention(vec2 p) {
@@ -17,15 +17,15 @@ vec2 attention(vec2 p) {
   vec2 f3 = scale * vec2(-1.5,0);
 
   
-  //B matrix
+  //QK-matrix
   //change this, its awesome!
-  //mat2 B=mat2(0.,1.,1.,0.);
-  mat2 B=mat2(-1.,0.,0.,-1.);
+  //mat2 QK=mat2(0.,1.,1.,0.);
+  mat2 QK=mat2(-1.,0.,0.,-1.);
   
   // calc projections -> weights
-  float w1 = dot(p,B*f1);
-  float w2 = dot(p,B*f2);
-  float w3 = dot(p,B*f3);
+  float w1 = dot(p,QK*f1);
+  float w2 = dot(p,QK*f2);
+  float w3 = dot(p,QK*f3);
 
   // softmax
   float sum = exp(w1)+exp(w2)+exp(w3);
