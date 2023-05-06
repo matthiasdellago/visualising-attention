@@ -1,6 +1,6 @@
 // Visualising the field that 3 attention vectors create in 2d
 // Play with the parameters and see what happens!
-// Now with built in quasi-kernel and your very own QK-matrix!
+// Now with built in quasi-kernel and your very own QK-matrix! (later called B-matrix)
 // Check out more visualisations at github.com/matthiasdellago/visualising-attention
 
 vec2 attention(vec2 p) {
